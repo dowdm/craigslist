@@ -1,0 +1,22 @@
+{ "sales": [{
+    "category": "Furniture",
+    "price": "245",
+    "title": "Chair",
+    "location": "bleh",
+    "description": "It's comfy and rocks. ",
+    "image": "https",
+    "contact": "971-222-2222",
+    "condition": "New",
+    "date": "2018-04-05"
+  }, {
+    "category": "Boat",
+    "price": "8945",
+    "title": "Boston Whaler",
+    "location": "Scappoose",
+    "description": "It floats. McBoatface ",
+    "image": "https",
+    "contact": "971-333-3333",
+    "condition": "Old AF, geriatric",
+    "date": "2017-04-05"
+ }]
+}

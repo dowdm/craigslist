@@ -1,0 +1,56 @@
+<h3>Add New Post</h3>
+<div>
+  <div>
+    <label>Title:</label>
+    <br>
+    <input #newTitle>
+  </div>
+
+  <div>
+    <label>Category:</label>
+    <br>
+    <input #newCategory>
+  </div>
+
+  <div>
+    <label>Description:</label>
+    <br>
+    <textarea #newDescription></textarea>
+  </div>
+  <div>
+    <label>Price:</label>
+    <br>
+    <textarea #newPrice></textarea>
+  </div>
+
+  <div>
+    <label>Location:</label>
+    <br>
+    <textarea #newLocation></textarea>
+  </div>
+
+  <div>
+    <label>Image:</label>
+    <br>
+    <textarea #newImage></textarea>
+  </div>
+
+  <div>
+    <label>Contact:</label>
+    <br>
+    <textarea #newContact></textarea>
+  </div>
+
+  <div>
+    <label>Condition:</label>
+    <br>
+    <textarea #newCondition></textarea>
+  </div>
+
+  <div>
+    <label>Date:</label>
+    <br>
+    <textarea #newDate></textarea>
+  </div>
+</div>
+<button (click)="submitForm(newTitle.value, newCategory.value, newDescription.value, newPrice.value, newLocation.value, newImage.value, newContact.value, newCondition.value, newDate.value)">Add</button>
