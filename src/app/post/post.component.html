@@ -53,4 +53,4 @@
     <textarea #newDate></textarea>
   </div>
 </div>
-<button (click)="submitForm(newTitle.value, newCategory.value, newDescription.value, newPrice.value, newLocation.value, newImage.value, newContact.value, newCondition.value, newDate.value)">Add</button>
+<button (click)="submitForm(newTitle.value, newCategory.value, newDescription.value, newPrice.value, newLocation.value, newImage.value, newContact.value, newCondition.value, newDate.value);newTitle.value =''; newCategory.value=''; newDescription.value=''; newPrice.value=''; newLocation.value=''; newImage.value=''; newContact.value=''; newCondition.value=''; newDate.value=''">Add</button>

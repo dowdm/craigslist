@@ -1,5 +1,11 @@
 <div>
+  <h3>{{(saleToDisplay | async)?.category}}</h3>
   <h3>{{(saleToDisplay | async)?.title}}</h3>
-  <h4>{{(saleToDisplay | async)?.price}}</h4>
+  <h4>${{(saleToDisplay | async)?.price}}</h4>
   <p>{{(saleToDisplay | async)?.description}}</p>
+  <p>{{(saleToDisplay | async)?.location}}</p>
+  <p>{{(saleToDisplay | async)?.condition}}</p>
+  <p>{{(saleToDisplay | async)?.contact}}</p>
+  <p>{{(saleToDisplay | async)?.date}}</p>
+  <img src="{{(saleToDisplay | async)?.image}}" alt="broken image">
 </div>
