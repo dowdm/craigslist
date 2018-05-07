@@ -1,0 +1,9 @@
+h3:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+h3{
+  /*color: white;*/
+  /*cursor: none;*/
+}

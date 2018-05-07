@@ -2,6 +2,6 @@
 
 <div *ngFor="let sale of sales | async" (click)="goToDetailPage(sale)" class="panel panel-default">
   <div class="panel-body">
-    <h3><em>{{sale.title}}</em> for ${{sale.price}}</h3>
+    <h3>{{sale.title}} for ${{sale.price}}</h3>
   </div>
 </div>
